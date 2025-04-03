@@ -26,7 +26,8 @@
     "build": {
       "echoip": {
         "command": "  GOPATH=$out go install ./cmd/echoip\n  chmod -R +w $out/pkg\n  rm -rf $out/pkg\n",
-        "version": "file:VERSION"
+        "version": "file:VERSION",
+        "description": "demo desc"
       }
     }
   },
