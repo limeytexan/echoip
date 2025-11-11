@@ -87,8 +87,8 @@ echoip.command = '''
   chmod -R +w $out/pkg
   rm -rf $out/pkg
 '''
-#echoip.version = "1.2.3"
-echoip.version = "file:VERSION"
+echoip.version = "1.2.3"
+#echoip.version = "file:VERSION"
 echoip.description = "demo desc"
 #echoip.version = "command:git echo 3.4.5"
 
